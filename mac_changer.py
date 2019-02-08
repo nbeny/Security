@@ -32,15 +32,18 @@ def get_current_mac(interface):
         print("[-] Could not read MAC address.")
 
 
-options = get_arguments()
+try:
+    options = get_arguments()
 
-current_mac = get_current_mac(options.interface)
-print("Current MAC = " + str(current_mac))
+    current_mac = get_current_mac(options.interface)
+    print("Current MAC = " + str(current_mac))
 
-change_mac(options.interface, options.new_mac)
+    change_mac(options.interface, options.new_mac)
 
-current_mac = get_current_mac(options.interface)
-if current_mac == options.news_mac:
-    print("[+] MAC address was successfully changed to " + current_mac)
-else:
-    print("[-] MAC address did not get changed.")
+    current_mac = get_current_mac(options.interface)
+    if current_mac == options.news_mac:
+        print("[+] MAC address was successfully changed to " + current_mac)
+    else:
+        print("[-] MAC address did not get changed.")
+except KeyboardInterrupt:
+    print("[-] Detected ctrl + C ... Quitting.")
