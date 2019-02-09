@@ -1,0 +1,17 @@
+
+            >>>>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<<<<
+            [+] Possible username/password >> b'uname=zbsdfhs&pass=dfhsdfh'
+            >>>>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<<<<
+            
+            >>>>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<<<<
+            [+] Possible username/password >> b'uname=sdfgsdfg&pass=sdfgsdfg'
+            >>>>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<<<<
+            
+            >>>>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<<<<
+            [+] Possible username/password >> b'uname=sdfghsdfh&pass=sdfhsdfh'
+            >>>>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<<<<
+            
+            >>>>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<<<<
+            [+] Possible username/password >> b'uname=sdfhsdfh&pass=sdfhsdfh'
+            >>>>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<<<<
+            
