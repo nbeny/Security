@@ -15,3 +15,11 @@
             [+] Possible username/password >> b'uname=sdfhsdfh&pass=sdfhsdfh'
             >>>>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<<<<
             
+            >>>>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<<<<
+            [+] Possible username/password >> b'uname=asfdaefht&pass=jsrtjsfryk'
+            >>>>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<<<<
+            
+            >>>>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<<<<
+            [+] Possible username/password >> b'uname=fgjsfgjsfgk&pass=sfgksfgksfgk'
+            >>>>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<<<<
+            

