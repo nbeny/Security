@@ -1,0 +1,117 @@
+
+            [+] Headers info >> b'Referer: http://testphp.vulnweb.com/login.php\r\nCache-Control: max-age=0\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\r\nAccept-Language: en-US\r\nContent-Type: application/x-www-form-urlencoded\r\nUpgrade-Insecure-Requests: 1\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/18.17763\r\nAccept-Encoding: gzip, deflate\r\nHost: testphp.vulnweb.com\r\nContent-Length: 26\r\nConnection: Keep-Alive'
+            
+            [+] Headers info >> b'Referer: http://testphp.vulnweb.com/login.php\r\nCache-Control: max-age=0\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\r\nAccept-Language: en-US\r\nUpgrade-Insecure-Requests: 1\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/18.17763\r\nAccept-Encoding: gzip, deflate\r\nHost: testphp.vulnweb.com\r\nConnection: Keep-Alive'
+            
+            [+] Headers info >> b'Referer: http://testphp.vulnweb.com/login.php\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\r\nAccept-Language: en-US\r\nUpgrade-Insecure-Requests: 1\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/18.17763\r\nAccept-Encoding: gzip, deflate\r\nHost: testphp.vulnweb.com\r\nConnection: Keep-Alive'
+            
+            [+] Headers info >> b'Referer: http://testphp.vulnweb.com/AJAX/index.php\r\nAccept: text/css,*/*;q=0.1\r\nAccept-Language: en-US\r\nAccept-Encoding: gzip, deflate\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/18.17763\r\nHost: testphp.vulnweb.com\r\nConnection: Keep-Alive'
+            
+            [+] Headers info >> b'Referer: http://testphp.vulnweb.com/login.php\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\r\nAccept-Language: en-US\r\nUpgrade-Insecure-Requests: 1\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/18.17763\r\nAccept-Encoding: gzip, deflate\r\nHost: testphp.vulnweb.com\r\nConnection: Keep-Alive'
+            
+            [+] Headers info >> b'Referer: http://testphp.vulnweb.com/login.php\r\nCache-Control: max-age=0\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\r\nAccept-Language: en-US\r\nContent-Type: application/x-www-form-urlencoded\r\nUpgrade-Insecure-Requests: 1\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/18.17763\r\nAccept-Encoding: gzip, deflate\r\nHost: testphp.vulnweb.com\r\nContent-Length: 28\r\nConnection: Keep-Alive'
+            
+            [+] Headers info >> b'Referer: http://testphp.vulnweb.com/login.php\r\nCache-Control: max-age=0\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\r\nAccept-Language: en-US\r\nUpgrade-Insecure-Requests: 1\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/18.17763\r\nAccept-Encoding: gzip, deflate\r\nHost: testphp.vulnweb.com\r\nConnection: Keep-Alive'
+            
+            [+] Headers info >> b'Referer: http://testphp.vulnweb.com/login.php\r\nCache-Control: max-age=0\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\r\nAccept-Language: en-US\r\nContent-Type: application/x-www-form-urlencoded\r\nUpgrade-Insecure-Requests: 1\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/18.17763\r\nAccept-Encoding: gzip, deflate\r\nHost: testphp.vulnweb.com\r\nContent-Length: 29\r\nConnection: Keep-Alive'
+            
+            [+] Headers info >> b'Referer: http://testphp.vulnweb.com/login.php\r\nCache-Control: max-age=0\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\r\nAccept-Language: en-US\r\nUpgrade-Insecure-Requests: 1\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/18.17763\r\nAccept-Encoding: gzip, deflate\r\nHost: testphp.vulnweb.com\r\nConnection: Keep-Alive'
+            
+            [+] Headers info >> b'Referer: http://testphp.vulnweb.com/login.php\r\nCache-Control: max-age=0\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\r\nAccept-Language: en-US\r\nContent-Type: application/x-www-form-urlencoded\r\nUpgrade-Insecure-Requests: 1\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/18.17763\r\nAccept-Encoding: gzip, deflate\r\nHost: testphp.vulnweb.com\r\nContent-Length: 28\r\nConnection: Keep-Alive'
+            
+            [+] Headers info >> b'Referer: http://testphp.vulnweb.com/login.php\r\nCache-Control: max-age=0\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\r\nAccept-Language: en-US\r\nUpgrade-Insecure-Requests: 1\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/18.17763\r\nAccept-Encoding: gzip, deflate\r\nHost: testphp.vulnweb.com\r\nConnection: Keep-Alive'
+            
+            [+] Headers info >> b'Connection: Keep-Alive\r\nAccept: */*\r\nUser-Agent: Microsoft-CryptoAPI/10.0\r\nHost: ocsp.godaddy.com'
+            
+            [+] Headers info >> b'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\r\nAccept-Language: en-US\r\nUpgrade-Insecure-Requests: 1\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/18.17763\r\nAccept-Encoding: gzip, deflate\r\nHost: copyscape.com\r\nConnection: Keep-Alive'
+            
+            [+] Headers info >> b'Connection: Keep-Alive\r\nAccept: */*\r\nUser-Agent: Microsoft-CryptoAPI/10.0\r\nHost: ocsp.comodoca.com'
+            
+            [+] Headers info >> b'Connection: Keep-Alive\r\nAccept: */*\r\nUser-Agent: Microsoft-CryptoAPI/10.0\r\nHost: ocsp.comodoca.com'
+            
+            [+] Headers info >> b'Connection: Keep-Alive\r\nAccept: */*\r\nUser-Agent: Microsoft-CryptoAPI/10.0\r\nHost: ocsp.godaddy.com'
+            
+            [+] Headers info >> b'Connection: Keep-Alive\r\nAccept: */*\r\nUser-Agent: Microsoft-CryptoAPI/10.0\r\nHost: ocsp.godaddy.com'
+            
+            [+] Headers info >> b'Connection: Keep-Alive\r\nUser-Agent: Microsoft-WNS/10.0\r\nHost: tile-service.weather.microsoft.com'
+            
+            [+] Headers info >> b'Connection: Keep-Alive\r\nAccept: */*\r\nUser-Agent: Microsoft-CryptoAPI/10.0\r\nHost: ocsp.msocsp.com'
+            
+            [+] Headers info >> b'Connection: Keep-Alive\r\nAccept: */*\r\nUser-Agent: Microsoft-CryptoAPI/10.0\r\nHost: ocsp.pki.goog'
+            
+            [+] Headers info >> b'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\r\nAccept-Language: en-US\r\nUpgrade-Insecure-Requests: 1\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/18.17763\r\nAccept-Encoding: gzip, deflate\r\nHost: www.googleguide.com\r\nConnection: Keep-Alive'
+            
+            [+] Headers info >> b'Referer: http://www.googleguide.com/advanced_operators_reference.html\r\nAccept: text/css,*/*;q=0.1\r\nAccept-Language: en-US\r\nAccept-Encoding: gzip, deflate\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/18.17763\r\nHost: www.googleguide.com\r\nConnection: Keep-Alive'
+            
+            [+] Headers info >> b'Referer: http://www.googleguide.com/advanced_operators_reference.html\r\nAccept: image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5\r\nAccept-Language: en-US\r\nAccept-Encoding: gzip, deflate\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/18.17763\r\nHost: www.googleguide.com\r\nConnection: Keep-Alive'
+            
+            [+] Headers info >> b'Referer: http://www.googleguide.com/advanced_operators_reference.html\r\nAccept: */*\r\nAccept-Language: en-US\r\nAccept-Encoding: gzip, deflate\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/18.17763\r\nHost: pagead2.googlesyndication.com\r\nConnection: Keep-Alive'
+            
+            [+] Headers info >> b'Referer: http://www.googleguide.com/advanced_operators_reference.html\r\nAccept: image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5\r\nAccept-Language: en-US\r\nAccept-Encoding: gzip, deflate\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/18.17763\r\nHost: www.googleguide.com\r\nConnection: Keep-Alive'
+            
+            [+] Headers info >> b'Referer: http://www.googleguide.com/advanced_operators_reference.html\r\nAccept: image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5\r\nAccept-Language: en-US\r\nAccept-Encoding: gzip, deflate\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/18.17763\r\nHost: www.googleguide.com\r\nConnection: Keep-Alive'
+            
+            [+] Headers info >> b'Referer: http://www.googleguide.com/advanced_operators_reference.html\r\nAccept: image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5\r\nAccept-Language: en-US\r\nAccept-Encoding: gzip, deflate\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/18.17763\r\nHost: www.googleguide.com\r\nConnection: Keep-Alive'
+            
+            [+] Headers info >> b'Referer: http://www.googleguide.com/advanced_operators_reference.html\r\nAccept: image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5\r\nAccept-Language: en-US\r\nAccept-Encoding: gzip, deflate\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/18.17763\r\nHost: www.googleguide.com\r\nConnection: Keep-Alive'
+            
+            [+] Headers info >> b'Referer: http://www.googleguide.com/advanced_operators_reference.html\r\nAccept: image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5\r\nAccept-Language: en-US\r\nAccept-Encoding: gzip, deflate\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/18.17763\r\nHost: www.googleguide.com\r\nConnection: Keep-Alive'
+            
+            [+] Headers info >> b'Referer: http://www.googleguide.com/advanced_operators_reference.html\r\nAccept: image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5\r\nAccept-Language: en-US\r\nAccept-Encoding: gzip, deflate\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/18.17763\r\nHost: www.googleguide.com\r\nConnection: Keep-Alive'
+            
+            [+] Headers info >> b'Referer: http://www.googleguide.com/advanced_operators_reference.html\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/18.17763\r\nAccept: */*\r\nAccept-Language: en-US\r\nAccept-Encoding: gzip, deflate\r\nHost: pagead2.googlesyndication.com\r\nConnection: Keep-Alive'
+            
+            [+] Headers info >> b'Accept: */*\r\nAccept-Encoding: gzip, deflate\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/18.17763\r\nHost: www.googleguide.com\r\nDNT: 1\r\nConnection: Keep-Alive'
+            
+            [+] Headers info >> b'Connection: Keep-Alive\r\nAccept: */*\r\nUser-Agent: Microsoft-CryptoAPI/10.0\r\nHost: ocsp.pki.goog'
+            
+            [+] Headers info >> b'Connection: Keep-Alive\r\nAccept: */*\r\nUser-Agent: Microsoft-CryptoAPI/10.0\r\nHost: status.rapidssl.com'
+            
+            [+] Headers info >> b'Connection: Keep-Alive\r\nAccept: */*\r\nUser-Agent: Microsoft-CryptoAPI/10.0\r\nHost: ocsp.digicert.com'
+            
+            [+] Headers info >> b'Connection: Keep-Alive\r\nAccept: */*\r\nUser-Agent: Microsoft-CryptoAPI/10.0\r\nHost: ocsp.comodoca.com'
+            
+            [+] Headers info >> b'Connection: Keep-Alive\r\nAccept: */*\r\nUser-Agent: Microsoft-CryptoAPI/10.0\r\nHost: ocsp.comodoca.com'
+            
+            [+] Headers info >> b'Connection: Keep-Alive\r\nAccept: */*\r\nUser-Agent: Microsoft-CryptoAPI/10.0\r\nHost: ocsp.digicert.com'
+            
+            [+] Headers info >> b'Referer: https://www.google.com/\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\r\nAccept-Language: en-US\r\nUpgrade-Insecure-Requests: 1\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/18.17763\r\nAccept-Encoding: gzip, deflate\r\nHost: www.stealmylogin.com\r\nConnection: Keep-Alive'
+            
+            [+] Headers info >> b'Referer: http://www.stealmylogin.com/\r\nAccept: */*\r\nAccept-Language: en-US\r\nAccept-Encoding: gzip, deflate\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/18.17763\r\nHost: platform.twitter.com\r\nConnection: Keep-Alive\r\nCookie: personalization_id="v1_C8J9MYOwXM6RnBuzyncH1A=="'
+            
+            [+] Headers info >> b'Referer: http://www.stealmylogin.com/\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/18.17763\r\nAccept: */*\r\nAccept-Language: en-US\r\nAccept-Encoding: gzip, deflate\r\nHost: disqus.com\r\nConnection: Keep-Alive'
+            
+            [+] Headers info >> b'Accept: */*\r\nAccept-Encoding: gzip, deflate\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/18.17763\r\nHost: www.stealmylogin.com\r\nDNT: 1\r\nConnection: Keep-Alive'
+            
+            [+] Headers info >> b'Referer: http://www.stealmylogin.com/\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/18.17763\r\nAccept: */*\r\nAccept-Language: en-US\r\nAccept-Encoding: gzip, deflate\r\nHost: stealmylogin.disqus.com\r\nConnection: Keep-Alive'
+            
+            [+] Headers info >> b'Connection: Keep-Alive\r\nAccept: */*\r\nUser-Agent: Microsoft-CryptoAPI/10.0\r\nHost: ocsp.comodoca.com'
+            
+            [+] Headers info >> b'Connection: Keep-Alive\r\nAccept: */*\r\nUser-Agent: Microsoft-CryptoAPI/10.0\r\nHost: status.rapidssl.com'
+            
+            [+] Headers info >> b'Connection: Keep-Alive\r\nAccept: */*\r\nUser-Agent: Microsoft-CryptoAPI/10.0\r\nHost: ocsp.comodoca.com'
+            
+            [+] Headers info >> b'Connection: Keep-Alive\r\nAccept: */*\r\nUser-Agent: Microsoft-CryptoAPI/10.0\r\nHost: ocsp.sca1b.amazontrust.com'
+            
+            [+] Headers info >> b'Connection: Keep-Alive\r\nAccept: */*\r\nUser-Agent: Microsoft-CryptoAPI/10.0\r\nHost: ocsp.comodoca.com'
+            
+            [+] Headers info >> b'Connection: Keep-Alive\r\nAccept: */*\r\nUser-Agent: Microsoft-CryptoAPI/10.0\r\nHost: ocsp.entrust.net'
+            
+            [+] Headers info >> b'Connection: Keep-Alive\r\nAccept: */*\r\nUser-Agent: Microsoft-CryptoAPI/10.0\r\nHost: ocsp.entrust.net'
+            
+            [+] Headers info >> b'Connection: Keep-Alive\r\nAccept: */*\r\nUser-Agent: Microsoft-CryptoAPI/10.0\r\nHost: ocsp.entrust.net'
+            
+            [+] Headers info >> b'Connection: Keep-Alive\r\nAccept: */*\r\nUser-Agent: Microsoft-CryptoAPI/10.0\r\nHost: status.rapidssl.com'
+            
+            [+] Headers info >> b'Connection: Keep-Alive\r\nAccept: */*\r\nUser-Agent: Microsoft-CryptoAPI/10.0\r\nHost: ocsp.digicert.com'
+            
+            [+] Headers info >> b'Connection: Keep-Alive\r\nAccept: */*\r\nUser-Agent: Microsoft-CryptoAPI/10.0\r\nHost: status.rapidssl.com'
+            
+            [+] Headers info >> b'Connection: Keep-Alive\r\nAccept: */*\r\nUser-Agent: Microsoft-CryptoAPI/10.0\r\nHost: ocsp.int-x3.letsencrypt.org'
+            
+            [+] Headers info >> b'Connection: Keep-Alive\r\nAccept: */*\r\nUser-Agent: Microsoft-CryptoAPI/10.0\r\nHost: ocsp.comodoca.com'
+            
+            [+] Headers info >> b'Connection: Keep-Alive\r\nAccept: */*\r\nUser-Agent: Microsoft-CryptoAPI/10.0\r\nHost: ocsp.int-x3.letsencrypt.org'
+            
+            [+] Headers info >> b'Connection: Keep-Alive\r\nUser-Agent: Microsoft-WNS/10.0\r\nHost: cdn.content.prod.cms.msn.com'
+            
