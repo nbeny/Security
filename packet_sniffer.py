@@ -34,7 +34,7 @@ def process_sniffed_packet(packet):
         url = get_url(packet)
         url_print = "[+] HTTP Request >> " + str(url)
         print(url_print)
-        add_in_file(data=url_print, file="url")
+        add_in_file(data=url_print + "\n", file="url")
 
         login_info = get_login(packet)
         if login_info is not None:
