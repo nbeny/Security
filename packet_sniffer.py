@@ -29,7 +29,7 @@ def get_headers(packet):
 
 def process_sniffed_packet(packet):
     if packet.haslayer(http.HTTPRequest):
-        # print(packet.show())
+        print(packet.show())
 
         url = get_url(packet)
         url_print = "[+] HTTP Request >> " + str(url)

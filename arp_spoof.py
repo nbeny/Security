@@ -7,10 +7,12 @@ import sys
 # ip and mac_address found with network_scanner.py
 target_ip = "10.0.2.5"
 mac_address = "08:00:27:08:72:ce"
+# target_ip = "10.0.2.1"
+# mac_address = "52:54:00:12:35:00"
 
 #psrc Gateway/Passerelle found with 'route -n'
 gateway_ip = "10.0.2.3"
-
+# gateway_ip = "10.0.2.5"
 
 def get_mac(ip):
     arp_request = scapy.ARP(pdst=ip)
