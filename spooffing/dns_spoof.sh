@@ -1,18 +1,21 @@
 #!/bin/bash
 
+# normal clear
+iptables --flush -v
+
 # shecker list
-# iptables --list
+# iptables -L -nv
 # watch -n 0.1 iptables -L -v -n
 
-# local
-# iptables -I FORWARD -j NFQUEUE --queue-num 1
+# local + Redirection Apache2
+echo 1 > /proc/sys/net/ipv4/ip_forward
+iptables -I FORWARD -d 10.0.2.0/24 -j NFQUEUE --queue-num 1 -v
 
 # Real word
-iptables -I OUTPUT -d 10.0.2.0/24 -j NFQUEUE --queue-num 1
-iptables -I INPUT -d 10.0.2.0/24 -j NFQUEUE --queue-num 1
-
-# normal clear
-# iptables --flush
+iptables -I OUTPUT -d 10.0.2.0/24 -j NFQUEUE --queue-num 1 -v
+iptables -I INPUT -d 10.0.2.0/24 -j NFQUEUE --queue-num 1 -v
+iptables -A PREROUTING -t mangle -i eth0 -j NFQUEUE --queue-num 1 -v
+iptables -I INPUT -s 10.0.2.1 -i eth0 -j NFQUEUE --queue-num 1 -v
 
 # boosted clear
 # iptables -P INPUT ACCEPT

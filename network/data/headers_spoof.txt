@@ -1,0 +1,110 @@
+
+            [+] Headers info >> Host: googls.fr
+Accept: */*
+User-Agent: curl/7.55.1
+            
+            [+] Headers info >> Host: google.fr
+Accept: */*
+User-Agent: curl/7.61.0
+            
+            [+] Headers info >> Host: google.fr
+Accept: */*
+User-Agent: curl/7.61.0
+            
+            [+] Headers info >> Host: googls.fr
+Accept: */*
+User-Agent: curl/7.55.1
+            
+            [+] Headers info >> Host: google.fr
+Accept: */*
+User-Agent: curl/7.55.1
+            
+            [+] Headers info >> Host: google.fr
+Accept: */*
+User-Agent: curl/7.55.1
+            
+            [+] Headers info >> Host: www.bing.com
+Accept: */*
+User-Agent: curl/7.55.1
+            
+            [+] Headers info >> Host: www.bing.com
+Accept: */*
+User-Agent: curl/7.55.1
+            
+            [+] Headers info >> Host: www.bing.com
+Accept: */*
+User-Agent: curl/7.55.1
+            
+            [+] Headers info >> Connection: Keep-Alive
+Host: cdn.content.prod.cms.msn.com
+User-Agent: Microsoft-WNS/10.0
+            
+            [+] Headers info >> Connection: Keep-Alive
+Host: tile-service.weather.microsoft.com
+User-Agent: Microsoft-WNS/10.0
+            
+            [+] Headers info >> Connection: Keep-Alive
+Host: ocsp.pki.goog
+Accept: */*
+User-Agent: Microsoft-CryptoAPI/10.0
+            
+            [+] Headers info >> Host: www.bing.com
+Accept: */*
+User-Agent: curl/7.55.1
+            
+            [+] Headers info >> Host: www.bing.com
+Accept: */*
+User-Agent: curl/7.55.1
+            
+            [+] Headers info >> Connection: Keep-Alive
+Host: cdn.content.prod.cms.msn.com
+User-Agent: Microsoft-WNS/10.0
+            
+            [+] Headers info >> Connection: Keep-Alive
+Host: tile-service.weather.microsoft.com
+User-Agent: Microsoft-WNS/10.0
+            
+            [+] Headers info >> Host: www.bing.com
+Accept: */*
+User-Agent: curl/7.55.1
+            
+            [+] Headers info >> Host: www.bing.com
+Accept: */*
+User-Agent: curl/7.55.1
+            
+            [+] Headers info >> Content-Length: 83
+Accept-Language: fr,fr-FR;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:65.0) Gecko/20100101 Firefox/65.0
+Host: status.rapidssl.com
+Content-Type: application/ocsp-request
+            
+            [+] Headers info >> Content-Length: 83
+Accept-Language: fr,fr-FR;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:65.0) Gecko/20100101 Firefox/65.0
+Host: status.rapidssl.com
+Content-Type: application/ocsp-request
+            
+            [+] Headers info >> Content-Length: 83
+Accept-Language: fr,fr-FR;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:65.0) Gecko/20100101 Firefox/65.0
+Host: status.rapidssl.com
+Content-Type: application/ocsp-request
+            
+            [+] Headers info >> Content-Length: 85
+Accept-Language: fr,fr-FR;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:65.0) Gecko/20100101 Firefox/65.0
+Host: ocsp.int-x3.letsencrypt.org
+Content-Type: application/ocsp-request
+            

