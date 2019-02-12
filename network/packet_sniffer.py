@@ -86,6 +86,9 @@ keywords = [
     "login",
     "password",
     "pass",
+    "admin",
+    "root",
+    "superuser",
 ]
 
 create_directory()

