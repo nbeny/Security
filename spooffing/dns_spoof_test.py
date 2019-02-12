@@ -16,30 +16,24 @@
     along with this program.  If not, see <https://www.gnu.org/licenses/>.      
 """
 
-import os
+#!/usr/bin/env python
 
-def create_directory(data="data"):
-    path = os.getcwd()
-    path += "/" + data + "/"
-
-    try:
-        os.mkdir(path)
-    except OSError:
-        print("[-] Creation of the directory %s failed" % path)
-    else:
-        print("[+] Successfully created the directory %s" % path)
+from netfilterqueue import NetfilterQueue
+import socket
 
 
-def add_in_file(data=None, file="None"):
-    if data is None:
-        return None
-    
-    path = os.getcwd()
-    path += "/data/%s_spoof.txt" % file
+def print_and_accept(pkt):
+    print(pkt)
+    pkt.accept()
 
-    try:
-        file = open(path, "a+")
-        file.write(data)
-        file.close()
-    except OSError:
-        print("[-] Creation of the file %s failed" % path)
+nfqueue = NetfilterQueue()
+nfqueue.bind(1, print_and_accept)
+# s = socket.fromfd(nfqueue.get_fd(), socket.AF_UNIX, socket.SOCK_STREAM)
+# print(s)
+try:
+    nfqueue.run()
+except KeyboardInterrupt:
+    print("[-] Error run nfqueue.run_socket(s)")
+
+# s.close()
+nfqueue.unbind()
