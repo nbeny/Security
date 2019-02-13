@@ -9,6 +9,7 @@ iptables --flush -v
 
 # local + Redirection Apache2
 echo 1 > /proc/sys/net/ipv4/ip_forward
+iptables -I ACCEPT -j NFQUEUE --queue-num 1 -v
 iptables -I FORWARD -d 10.0.2.0/24 -j NFQUEUE --queue-num 1 -v
 
 # Real word
