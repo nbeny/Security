@@ -28,7 +28,7 @@ import scapy.all as scapy
 target_ip = "10.0.2.5"
 
 #psrc Gateway/Passerelle found with 'route -n'
-gateway_ip = "10.0.2.3"
+gateway_ip = "10.0.2.1"
 
 
 def get_mac(ip):
