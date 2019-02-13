@@ -1,0 +1,70 @@
+
+            [+] Headers info >> Connection: Keep-Alive
+Host: ocsp.msocsp.com
+Accept: */*
+User-Agent: Microsoft-CryptoAPI/10.0
+            
+            [+] Headers info >> Content-Length: 0
+MS-CV: L/SV5Gaa4U2YvS2/.0.3.6.2.1.0.0.14.2.6.6.1.1
+Range: bytes=0-1
+Accept: */*
+User-Agent: Microsoft-Delivery-Optimization/10.0
+Connection: Keep-Alive
+Host: 2.tlu.dl.delivery.mp.microsoft.com
+            
+            [+] Headers info >> Content-Length: 0
+MS-CV: L/SV5Gaa4U2YvS2/.0.3.6.2.1.0.0.14.2.6.5.1.1
+Range: bytes=0-1
+Accept: */*
+User-Agent: Microsoft-Delivery-Optimization/10.0
+Connection: Keep-Alive
+Host: 2.tlu.dl.delivery.mp.microsoft.com
+            
+            [+] Headers info >> Content-Length: 0
+MS-CV: L/SV5Gaa4U2YvS2/.0.3.7.2.1.0.0.14.2.6.5.1.1
+Range: bytes=0-1
+Accept: */*
+User-Agent: Microsoft-Delivery-Optimization/10.0
+Connection: Keep-Alive
+Host: 7.tlu.dl.delivery.mp.microsoft.com
+            
+            [+] Headers info >> Content-Length: 0
+MS-CV: L/SV5Gaa4U2YvS2/.0.3.6.2.1.0.0.14.2.6.6.1.2
+Range: bytes=3145728-4194303
+Accept: */*
+User-Agent: Microsoft-Delivery-Optimization/10.0
+Connection: Keep-Alive
+Host: 2.tlu.dl.delivery.mp.microsoft.com
+            
+            [+] Headers info >> Content-Length: 0
+MS-CV: L/SV5Gaa4U2YvS2/.0.3.6.2.1.0.0.14.2.6.7.1.1
+Range: bytes=0-1
+Accept: */*
+User-Agent: Microsoft-Delivery-Optimization/10.0
+Connection: Keep-Alive
+Host: tlu.dl.delivery.mp.microsoft.com
+            
+            [+] Headers info >> Content-Length: 0
+MS-CV: L/SV5Gaa4U2YvS2/.0.3.7.2.1.0.0.14.2.6.5.1.2
+Range: bytes=23068672-24117247
+Accept: */*
+User-Agent: Microsoft-Delivery-Optimization/10.0
+Connection: Keep-Alive
+Host: 7.tlu.dl.delivery.mp.microsoft.com
+            
+            [+] Headers info >> Content-Length: 0
+MS-CV: L/SV5Gaa4U2YvS2/.0.3.6.2.1.0.0.14.2.6.8.1.1
+Range: bytes=0-1
+Accept: */*
+User-Agent: Microsoft-Delivery-Optimization/10.0
+Connection: Keep-Alive
+Host: tlu.dl.delivery.mp.microsoft.com
+            
+            [+] Headers info >> Content-Length: 0
+MS-CV: L/SV5Gaa4U2YvS2/.0.3.6.2.1.0.0.14.2.6.7.1.2
+Range: bytes=3145728-4194303
+Accept: */*
+User-Agent: Microsoft-Delivery-Optimization/10.0
+Connection: Keep-Alive
+Host: tlu.dl.delivery.mp.microsoft.com
+            
