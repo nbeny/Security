@@ -7,3 +7,6 @@ https://pythex.org
 # Windows Helper
 python.exe -m pip install scapy
 ipconfig /all
+
+# laZagne Program
+https://github.com/AlessandroZ/LaZagne/releases
