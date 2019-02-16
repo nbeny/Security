@@ -3,3 +3,7 @@ https://www.hacking-lab.com/download/Videos/
 
 # Regex Python
 https://pythex.org
+
+# Windows Helper
+python.exe -m pip install scapy
+ipconfig /all
