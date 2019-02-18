@@ -23,5 +23,3 @@ pip install netfilterqueue;
 # Service Setup
 # service apache2 start;
 # service openvpn start;
-
-# path = /var/www/html
