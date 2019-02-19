@@ -30,3 +30,8 @@
 # https://www.easyicon.net/language.en/covert/
 
 # wine /root/.wine/drive_c/Python27/Scripts/pyinstaller.exe --add-data "/root/Downloads/sample.pdf;." --onefile --noconsole reverse_backdoor.py --icon /root/Downloads/pdf.ico reverse_backdoor.py
+
+## Characters App on Kali Linux
+# right-to-left
+# right-to-left Override
+
